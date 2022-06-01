@@ -81,7 +81,16 @@ p {
   padding-right: 15px;
 }
 
-.menu {
+.navbar {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+}
+
+.firstBan h2, p{
+  display: flex;
+  justify-content: center; 
+}
+.avatBan{
+  display: flex;
+  justify-content: center;
 }
