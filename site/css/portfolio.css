@@ -80,3 +80,8 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.menu {
+  display: flex;
+  justify-content: end;
+}
