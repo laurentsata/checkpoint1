@@ -103,6 +103,18 @@ p {
 .box .disabled{
   color: #e2cefd;
 }
+
+.heading h2, p{
+  display: flex;
+  justify-content: center;
+}
+.contents{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+    align-items: center;
+}
+
 @media screen and (max-width: 700px){
   .desktop{
     display: none;
@@ -117,4 +129,6 @@ p {
     display: flex;
     justify-content: center;
   }
+  
+  
 }
