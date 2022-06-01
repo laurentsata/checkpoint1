@@ -22,10 +22,12 @@ a {
   max-height: 3rem;
 }
 
-#name {
+.myColor {
   color: red;
 }
-
+.change {
+  color: white; 
+ }
 .purple {
   color: #750ff7;
 }
