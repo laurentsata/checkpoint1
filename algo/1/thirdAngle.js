@@ -8,8 +8,8 @@ thirdAngle(20, 80) doit renvoyer 80
 
 function thirdAngle(a, b) {
   // Your code here !
-  let a = 30
-  let b = 80
+  return 180 - (a + b)
+  
 
 }
 

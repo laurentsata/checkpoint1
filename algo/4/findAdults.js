@@ -27,6 +27,12 @@ const persons = [
 
 function findAdults(arr) {
   // Your code here !
-}
+//}
 
+const femaleAdult = persons.filter(person => { return (person.age >= 18 && person.sex === "female")});
+
+//const maleAdult = persons.filter(person => { return (person.age >= 18 && person.sex === "male")});
+
+//return femaleAdult + maleAdult
+}
 module.exports = findAdults;
