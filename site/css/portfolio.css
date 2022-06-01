@@ -86,11 +86,22 @@ p {
   justify-content: space-between;
 }
 
-.firstBan h2, p{
+.firstBan h2, p, .avatBan, .introduction{
   display: flex;
   justify-content: center; 
 }
-.avatBan{
-  display: flex;
-  justify-content: center;
+
+@media screen and (max-width: 700px){
+  .desktop{
+    display: none;
+  }
+}
+
+.skills{
+  display: inline-flex;
+  
+}
+.megaSkill{
+  margin-right: auto;
+  margin-left: 10%;
 }
