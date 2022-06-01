@@ -1,9 +1,9 @@
 
-/*const clikAvatar = document.querySelector(".toto");
+/const clikAvatar = document.querySelector(".toto");
 
 clikAvatar.addEventListener("click", function(){
     clikAvatar.src = ("./image/avatar-bis.png");
-});*/
+});
 
 const changeColor = function () {
 
