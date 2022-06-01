@@ -91,17 +91,27 @@ p {
   justify-content: center; 
 }
 
+.column{
+  display: inline-flex;
+  height: 420px;
+  width: 270px;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 700px){
   .desktop{
     display: none;
   }
-}
-
-.skills{
-  display: inline-flex;
-  
-}
-.megaSkill{
-  margin-right: auto;
-  margin-left: 10%;
+  .column{
+    display: inherit; 
+  }
+  .skills{
+    display: list-item;
+  }
+  .megaSkill{
+    display: flex;
+    justify-content: center;
+  }
 }
