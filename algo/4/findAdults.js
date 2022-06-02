@@ -29,9 +29,9 @@ function findAdults(arr) {
   // Your code here !
 //}
 
-const femalAdult = persons.filter(person => { return (person.age >= 18 && person.sex === "female")});
+const femalAdult = arr.filter(person => { return (person.age >= 18 && person.sex === "female")});
 
-const maleAdulte = persons.filter(person => { return (person.age >= 18 && person.sex === "male")});
+const maleAdulte = arr.filter(person => { return (person.age >= 18 && person.sex === "male")});
 const newArray = [];
 newArray.push(femalAdult);
 newArray.push(maleAdulte);

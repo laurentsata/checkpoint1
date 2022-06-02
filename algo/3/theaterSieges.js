@@ -16,7 +16,7 @@ exemple :
   ['26-1', '26-2', '26-3', ..., '26-100']
 ] 
 */
-
+/*
 function theaterSieges() {
   // Your code here !
   let colonnes = 
@@ -30,6 +30,9 @@ function theaterSieges() {
   );
   return finalArray;
 }
+*/
+
+
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
